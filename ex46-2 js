@@ -1,0 +1,17 @@
+const mysql=require('mysql');
+const connection=mysql.createConnection({
+  host:'localhost',
+  user:'root',
+  password:'1234',
+  databae: 'book_table1',
+  port:3306 
+});
+
+connection.connect();
+
+connection.query('select*from books',(error,results,fileds)=>{
+  if(error) throw error;
+  console.log(results);
+});
+
+connection.end();

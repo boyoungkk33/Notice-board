@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "iconv-lite": "^0.6.3",
+    "iconv-lite-umd": "^0.6.10",
+    "mysql": "^2.18.1",
+    "node-schedule": "^2.1.1",
+    "nodemailer": "^6.9.3",
+    "request": "^2.88.2"
+  }
+}
