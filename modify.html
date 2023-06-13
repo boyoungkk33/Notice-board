@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8 ">
+    <title>Modify page</title>
+  </head>
+  <body>
+    <h1>Modify page</h1>
+    <hr>
+    <form methd="post">
+      <fieldset>
+        <legend>modify data</legend>
+        <table>
+          <tr><!--1-->
+            <td><label>genre</label></td>
+            <td><input type="text" name="genre" value="<%=data.genre%>"></td>
+          </tr>
+          <tr><!--2-->
+            <td><label>name</label></td>
+            <td><input type="text" name="name" value="<%=data.name%>"></td>
+          </tr>
+          <tr><!--3-->
+            <td><label>writer</label></td>
+            <td><input type="text" name="writer" value="<%=data.writer%>"></td>
+          </tr>
+        </table>
+        <input type="submit">
+      </fieldset>
+    </form>
+  </body>
+</html>

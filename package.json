@@ -1,6 +1,7 @@
 {
   "dependencies": {
     "cheerio": "^1.0.0-rc.12",
+    "ejs": "^3.1.9",
     "iconv-lite": "^0.6.3",
     "iconv-lite-umd": "^0.6.10",
     "mysql": "^2.18.1",
