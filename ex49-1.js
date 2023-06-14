@@ -72,6 +72,7 @@ app.post('/modify/:id', (request, response) => {
         });
 });
 
+
 // Delete book
 app.get('/delete/:id', (request, response) => {
     connection.query('DELETE FROM books WHERE number = ?', [request.params.id], (error, results) => {

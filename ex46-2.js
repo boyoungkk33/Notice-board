@@ -4,13 +4,9 @@ const nodemailer = require('nodemailer');
 const iconv = require('iconv-lite-umd');
 
 
-
-
 const url = 'http://';
-
 const date = new Date();
 let title;
-
 const arrayTitle = [];
 
 function sendMail(arHeadline) {

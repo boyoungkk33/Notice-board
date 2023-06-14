@@ -42,6 +42,7 @@ app.get('/create', (request, response) => {
   });
 });
 
+
 app.post('/create', (request, response) => {
   const body = request.body;
   connection.query('INSERT INTO books (genre, name, writer, releasedate) VALUES (?, ?, ?, ?)', [body.genre, body.name, body.writer, body.releasedate], (error, results) => {
